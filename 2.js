@@ -10,6 +10,6 @@ console.log(isOdd(47));
 
 function isEven (number){
 
-    return (number % 2) === 0;
+    return (number % 2) !== 0;
 }
 console.log(isEven(90));
