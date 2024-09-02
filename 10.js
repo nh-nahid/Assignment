@@ -8,7 +8,7 @@ function primeNum (numb) {
 
     let isPrime = true;
 
-   for ( i = 2; i < numb; ++i) {
+   for (let i = 2; i < numb; ++i) {
 
      if( numb % i === 0 ) {
        isPrime = false;
@@ -21,7 +21,7 @@ function primeNum (numb) {
  function allPrimeNum (start, end) {
     const primeArray = [];
 
-    for( i=start; i<=end; ++i) {
+    for(let i=start; i<=end; ++i) {
 
        if (primeNum(i)) {
         primeArray.push(i);
